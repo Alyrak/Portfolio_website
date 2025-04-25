@@ -1,0 +1,19 @@
+.body{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    background-color: rgb(255, 250, 243);
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-and-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.back-button-image {
+    margin-right: 10px;
+}

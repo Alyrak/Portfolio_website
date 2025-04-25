@@ -5,9 +5,9 @@
   font-style: normal;
 } */
 
-body {
+* {
     font-family: "Special Gothic Expanded One", sans-serif;
-    background-color: antiquewhite;
+    background-color: rgb(255, 250, 243);
     margin: 50px 0;
   }
   
@@ -33,6 +33,10 @@ body {
   }
   
   .works {
-    padding: 0px 0px 0px 50px;
+    padding: 80px 0px 0px 50px;
     font-size: 3rem;
+  }
+
+  .SDcards{
+
   }
