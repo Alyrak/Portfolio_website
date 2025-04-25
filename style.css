@@ -1,8 +1,38 @@
-.body{
-     background-color: rgb(181, 181, 212); /* color debbuger */
-    margin: 100px 0;
-}
+/* .noto-sans-cherokee {
+  font-family: "Noto Sans Cherokee", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+} */
 
-.Ptitle span {
+body {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    background-color: antiquewhite;
+    margin: 50px 0;
+  }
+  
+  .logotitle {
+    padding-left: 50px;
+  }
+  
+  .logotitle img {
+    max-width: 5%;
+    height: auto;
+    display: block;
+  }
+  
+  .Ptitle {
+    position: relative;
+    font-size: 6rem;
+    text-align: left;
+    padding: 10px 20px 0px 50px;
+  }
+  
+  .andred {
     color: red;
-}
+  }
+  
+  .works {
+    padding: 0px 0px 0px 50px;
+    font-size: 3rem;
+  }
