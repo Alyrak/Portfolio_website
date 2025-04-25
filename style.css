@@ -1,0 +1,8 @@
+.body{
+     background-color: rgb(181, 181, 212); /* color debbuger */
+    margin: 100px 0;
+}
+
+.Ptitle span {
+    color: red;
+}
