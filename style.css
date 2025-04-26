@@ -6,37 +6,52 @@
 } */
 
 * {
-    font-family: "Special Gothic Expanded One", sans-serif;
-    background-color: rgb(255, 250, 243);
-    margin: 50px 0;
-  }
-  
-  .logotitle {
-    padding-left: 50px;
-  }
-  
-  .logotitle img {
-    max-width: 5%;
-    height: auto;
-    display: block;
-  }
-  
-  .Ptitle {
-    position: relative;
-    font-size: 6rem;
-    text-align: left;
-    padding: 10px 20px 0px 50px;
-  }
-  
-  .andred {
-    color: red;
-  }
-  
-  .works {
-    padding: 80px 0px 0px 50px;
-    font-size: 3rem;
-  }
+  font-family: "Special Gothic Expanded One", sans-serif;
+  background-color: rgb(255, 250, 243);
+  margin: 20px 0;
+}
 
-  .SDcards{
+.logotitle {
+  padding-left: 50px;
+}
 
-  }
+.logotitle img {
+  max-width: 4%;
+  height: auto;
+  display: block;
+}
+
+.Ptitle {
+  position: relative;
+  font-size: 6rem;
+  text-align: left;
+  padding: 10px 20px 0px 50px;
+}
+
+.andred {
+  color: red;
+}
+
+.works {
+  padding: 65px 20px 0px 50px;
+  font-size: 3rem;
+}
+
+.SDcards {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  white-space: nowrap;
+
+  margin: -10px 0px 0px 0px;
+  /* scrollbar-width: none; */
+}
+
+.SDcards img {
+  margin-right: -20px;
+  max-height: 260px;
+}
+
+.SDcards a {
+  margin-right: 10px;
+}
